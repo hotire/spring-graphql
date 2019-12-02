@@ -1,6 +1,6 @@
 # GraphQL
 
-![GraphQL](/doc/img/logo.png){: width="100" height="100"}
+![GraphQL](/doc/img/logo.png)
 
 ## Getting started
 - reference : https://www.graphql-java.com/tutorials/getting-started-with-spring-boot/
