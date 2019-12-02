@@ -33,8 +33,7 @@ class GraphqlApplicationTests {
             .contentType(MediaType.APPLICATION_JSON)
             .content(body))
         .andDo(print())
-        .andExpect(status().isOk())
-        .andExpect();
+        .andExpect(status().isOk());
   }
 
 }
