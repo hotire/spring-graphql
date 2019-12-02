@@ -23,6 +23,6 @@ dependencies {
 
 ### GraphQLProvider
 
-[GraphQLProviderLink](https://github.com/hotire/spring-graphql/blob/master/src/main/java/com/github/hotire/graphql/GraphQLProvider.java)
+[GraphQLProvider](https://github.com/hotire/spring-graphql/blob/master/src/main/java/com/github/hotire/graphql/GraphQLProvider.java)
 
  
