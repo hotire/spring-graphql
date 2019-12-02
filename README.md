@@ -1,6 +1,6 @@
 # GraphQL
 
-![GraphQL](https://ko.wikipedia.org/wiki/%EA%B7%B8%EB%9E%98%ED%94%84QL#/media/%ED%8C%8C%EC%9D%BC:GraphQL_Logo.svg)
+![GraphQL](/doc/img/logo.png)
 
 ## Getting started
 - reference : https://www.graphql-java.com/tutorials/getting-started-with-spring-boot/
@@ -19,35 +19,10 @@ dependencies {
 
 ### Schema
 
-```
-type Query {
-  bookById(id: ID): Book 
-}
-
-type Book {
-  id: ID
-  name: String
-  pageCount: Int
-  author: Author
-}
-
-type Author {
-  id: ID
-  firstName: String
-  lastName: String
-}
-
-```
-
+[schema.graphqls](https://github.com/hotire/spring-graphql/blob/master/src/main/resources/schema.graphqls)
 
 ### GraphQLProvider
 
-[googlelink]: https://github.com/hotire/spring-graphql/blob/master/src/main/java/com/github/hotire/graphql/GraphQLProvider.java "GraphQLProvider"
+[GraphQLProviderLink](https://github.com/hotire/spring-graphql/blob/master/src/main/java/com/github/hotire/graphql/GraphQLProvider.java)
 
-```
-@Component
-public class GraphQLProvider {
-...
-}
-```
  
