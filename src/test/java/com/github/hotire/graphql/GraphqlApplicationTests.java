@@ -19,11 +19,6 @@ class GraphqlApplicationTests {
   private MockMvc mockMvc;
 
   @Test
-  void contextLoads() {
-  }
-
-
-  @Test
   void graphql() throws Exception {
 
     final String body = "{\"query\" : \"{bookById(id: \\\"book-1\\\") {id name pageCount author { firstName lastName} } }\"}";
@@ -35,5 +30,4 @@ class GraphqlApplicationTests {
         .andDo(print())
         .andExpect(status().isOk());
   }
-
 }
